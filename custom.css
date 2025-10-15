@@ -30,7 +30,7 @@ h4, h5, h6 {
 
 /* The main welcome section container */
 .hero {
-  background-color: #508484;
+  background-color: #7b3e2f;
   height: 500px;
   display: flex;
   flex-direction: column;
