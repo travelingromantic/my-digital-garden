@@ -1,0 +1,17 @@
+views:
+  - type: cards
+    name: Table
+    filters:
+      and:
+        - file.inFolder("Books/Read")
+        - author != link("Logan Jacobs")
+    order:
+      - file.name
+      - cover
+      - author
+    sort:
+      - property: personalRating
+        direction: DESC
+    imageAspectRatio: 1.65
+    image: note.cover
+    cardSize: 120
