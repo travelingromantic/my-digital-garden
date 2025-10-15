@@ -1,26 +1,31 @@
 /* Change the background color of the whole site */
 html, body {
-    background-color: #8aa0d5 !important;
+    background-color: #fff8f0 !important;
 }
 
 
 /* Make all headings use a special font and be bold */
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Lucida Console", "Courier New", monospace !important;
-    font-weight: bold !important;
+  font-family: "Georgia", "Garamond", "Times New Roman", serif;
+  font-weight: 700;
+  color: var(--header-color);
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  line-height: 1.2;
 }
 
-/* Give different heading levels different colors */
-h1, h4 {
-    color: #d30c7b !important;  /* Pink */
+/* Specific header levels */
+h1 {
+  color: #7b3e2f; /* deep mahogany */
 }
-
-h2, h5 {
-    color: #ba5a31 !important;  /* Orange */
+h2 {
+  color: #a67564; /* rosewood (accent) */
 }
-
-h3, h6 {
-    color: #508484 !important;  /* Teal */
+h3 {
+  color: #ba8f63; /* golden tan */
+}
+h4, h5, h6 {
+  color: #3e2f25; /* same as body for subtle hierarchy */
 }
 
 /* The main welcome section container */
@@ -39,7 +44,7 @@ h3, h6 {
 /* The main title */
 .hero-title {
   font-size: 4rem;
-  color: #E35AA6 !important;
+  color: #3e2f25 !important;
   margin-bottom: 0px;
   display: block !important;  /* Required for h1 tags in custom components */
 }
@@ -52,8 +57,8 @@ h3, h6 {
 
 /* The button style */
 .hero-button {
-  background-color: #fff;
-  color: #333;
+  background-color: #a67564;
+  color: #d4a373;
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
