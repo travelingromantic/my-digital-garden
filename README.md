@@ -1,3 +1,9 @@
+<div class="hero">
+    <h1 class="hero-title">Chaos of My Mind<br/>🧘‍♀️🏄‍♀️🏔️</h1>
+    <p class="hero-description">WWelcome to my digital garden. My name's Patrick. I'm a tech journalist and fantasy author.</p>
+ /* <a href="/blog" class="hero-button">See my blog</a>
+</div>
+
 /* The main welcome section container */
 .hero {
   background-color: #508484;
