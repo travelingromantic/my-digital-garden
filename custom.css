@@ -1,7 +1,8 @@
 /* Change the background color of the whole site */
-.bg-background {
-    background: #8aa0d5 !important;
+html, body {
+    background-color: #8aa0d5 !important;
 }
+
 
 /* Make all headings use a special font and be bold */
 h1, h2, h3, h4, h5, h6 {
