@@ -1,0 +1,26 @@
+views:
+  - type: cards
+    name: TBR
+    filters:
+      and:
+        - file.folder == "Books/Want to Read"
+    order:
+      - file.name
+      - tags
+      - author
+      - cover
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 624
+    image: note.cover
+    imageAspectRatio: 1.6
+    cardSize: 130
+  - type: table
+    name: Read
+    filters:
+      and:
+        - tags.contains("read")
+    order:
+      - file.name
