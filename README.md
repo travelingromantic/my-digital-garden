@@ -1,5 +1,6 @@
+<h1>Chaos of My Mind<br/></h1>
+
 <div class="hero">
-    <h1 class="hero-title">Chaos of My Mind<br/></h1>
     <p class="hero-description">Welcome to my digital garden. My name's Patrick. I'm a tech journalist and fantasy author.</p>
 </div>
 
