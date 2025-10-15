@@ -13,7 +13,7 @@
   },
   "analytics": "G-XXXXXXXXXX",
   "showComments": false,           // Disable comments site-wide (if you want to enable them only on specific pages)
-  "showSidebar": false,             // Show site map on the left,
+  "showSidebar": true,             // Show site map on the left,
   "contentInclude": ["/blog", "README.md"],
   "contentExclude": ["/blog/_archive"],
 }
