@@ -16,9 +16,4 @@
   "showSidebar": false,             // Show site map on the left,
   "contentInclude": ["/blog", "README.md"],
   "contentExclude": ["/blog/_archive"],
-  "theme": {
-    "theme": "superstack",        // Optional official Flowershow theme
-    "defaultMode": "light",
-    "showModeSwitch": true
-  }
 }
